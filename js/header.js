@@ -2,7 +2,8 @@ $(function() {
 	// body...
 	$(".maru").click(function(){
 		// $(".menuMoji").toggle(".overlay-navigation");
-		$(".overlay-navigation").fadeToggle();
+		$(".overlay-navigation").toggleClass("active");
+		$(this).toggleClass("active");
 	});
 	$(".cont_box").click(function(){
 		$(".contri_img").toggle("active");

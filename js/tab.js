@@ -10,5 +10,14 @@
       var num = target.data('tab-body')
       $tab_body_item.removeClass('on')
       $('.tab-body__item--' + num).addClass('on')
+      if(num == 3){
+        $(".tab-body div:nth-child(1)").addClass('no');
+        $(".tab-body div:nth-child(2)").addClass('no');
+        $(".tab-body").css("height","500px");
+      }else{
+        $(".tab-body div:nth-child(1)").removeClass('no');
+        $(".tab-body div:nth-child(2)").removeClass('no');
+        $(".tab-body").css("height","890px");
+      };
     })
   })

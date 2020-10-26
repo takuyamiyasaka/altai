@@ -46,7 +46,7 @@ textarea {
 	padding: 10px;
 }
 a {
-  color: #FFFFFF;
+  color: #000;
 }
 
 a.no-color-change:hover {
@@ -62,7 +62,7 @@ a.no-color-change {
   position: relative;
   display: inline-block;
   padding-left: 20px;
-  color:#FFFFFF;
+  color:#000;
   text-decoration: none;
 }
 
@@ -72,8 +72,8 @@ a.no-color-change {
   width: 6px;
   height: 6px;
   border: 0;
-  border-top: solid 2px #FFFFFF;
-  border-right: solid 2px #FFFFFF;;
+  border-top: solid 2px #000;
+  border-right: solid 2px #000;
   position: absolute;
   top: 50%;
   left: 0;

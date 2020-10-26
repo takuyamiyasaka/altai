@@ -85,7 +85,7 @@ img.img{
     margin-right: auto;
 }
 
-#access h2{
+.access {
     /*background:linear-gradient(#000008, #000428, #243b55);*/
      border-bottom: 4px solid #5767bf;
 }

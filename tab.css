@@ -5,9 +5,10 @@
 }
 
 
-.tab_wrap{width:1000px; margin:80px auto;
-  
-  
+.tab_wrap{
+  width:1000px;
+   margin:80px auto;
+
 }
 
 .tab {
@@ -17,7 +18,7 @@
      background-color: #fff !important;
     margin: 0 !important;
     font-size:25px;
-   /*/*color:#999;*/ background:#ddd;*/
+   /*/*color:#999;*/ background:#ddd;
     padding: 0;
   }
 
@@ -30,7 +31,6 @@
 ul {
   list-style: none;
   background-color: transparent;
-   
 }
 
   .tab__item {
@@ -72,7 +72,7 @@ ul {
   }
   .tab-body {
     position: relative;
-    height: 120px;
+    height: 120vh;
   }
   .tab-body__item {
     position: absolute;
@@ -80,10 +80,13 @@ ul {
     margin: 30px 15px;
     text-align: center;
     opacity: 0;
-    transition: all 0.6s ease-out;
+    transition: all 0.3s ease-out;
   }
   .tab-body__item.on {
     opacity: 1;
+  }
+  .no{
+    display: none;
   }
 
 table {
@@ -129,10 +132,10 @@ th {
 
  body {
  /*  background-color: #486d46;          */  /* 背景色 */
-   /*background-image: url("test2.jpeg"); /* 画像 */
-   background-size: cover;               /* 全画面 */
-   background-attachment: fixed;         /* 固定 */
-   background-position: center center;   /* 縦横中央 */
+  /* background-image: url("test2.jpeg"); */  /*画像 */
+   /*background-size: cover;*/               /* 全画面 */
+   /*background-attachment: fixed;*/         /* 固定 */
+   /*background-position: center center;*/   /* 縦横中央 */
  }
 
 /* .back::before{
@@ -251,4 +254,3 @@ a.no-color-change {
 *, *::before, *::after {
     box-sizing: border-box;
 }
- 

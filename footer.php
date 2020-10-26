@@ -4,7 +4,7 @@
 			<ul>
 				<li><a href="top.php">Home</a></li>
 				<li><a href="company.php">Company</a></li>
-				<li><a href="tab3.html">Recruit</a></li>
+				<li><a href="tab.html">Recruit</a></li>
 				<!-- 今回は使わない -->
 				<!-- <li><a href="news.html">ニュース</a></li> -->
 				<li><a href="contact.html">Contact</a></li>

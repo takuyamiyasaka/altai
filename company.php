@@ -81,7 +81,8 @@
 
  
   <section id="access" class="section">
-    <h2>アクセス</h2>
+    <h2 style="text-align: center;font-size: 35px;margin-top: 15px;">ACCESS</h2>
+    <p class="access">アクセス</p>
     <p>株式会社アルタイル</p>
     <p>〒110-0015 東京都台東区東上野5-1-1　奥田ビル6階</p>
 
