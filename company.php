@@ -2,7 +2,8 @@
 <!DOCTYPE html><html>
   <head>
   <title>株式会社アルタイル</title>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
   <link rel="stylesheet" href="company.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -12,6 +13,7 @@
   <!--▼ 会社概要 ▼-->
   <body>
     <?php include('./header.php'); ?>
+    <div class="clear_box"></div>
     <div class="pankuzu">
       <ul>
         <li><a href="top.php">ホーム</a></li>
