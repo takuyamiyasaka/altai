@@ -2,9 +2,9 @@
 	<html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/header.js"></script>
-		<meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
 		<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/ncmb.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
@@ -45,7 +45,7 @@
 								<!-- <li><a href="#accessid"><img class="img_menu" src="image/menu_ac.png" onmouseout="this.src='image/menu_ac.png'" onmouseover="this.src='image/menu_ac_hover.png'"></a></li> -->
 							</ul>
 						</div>
-						<a href="works.html" style="color: black;font-weight: bold;">作業実績はこちらから</a>
+						<a href="works.html" class="main_p">作業実績はこちらから</a>
 					</div>
 				</div>
 			</div>
